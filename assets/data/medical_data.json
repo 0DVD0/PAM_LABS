@@ -1,0 +1,105 @@
+{
+  "homeScreen": {
+    "user": {
+      "name": "Jonathan",
+      "greeting": "Hi, Jonathan",
+      "subtitle": "May you always be healthy!",
+      "imageAsset": "lib/img/profile_pic.jpg"
+    },
+    "notifications": { "hasUnread": true },
+    "search": { "hint": "Search doctors or specialties" },
+    "appointment": {
+      "title": "Appointment",
+      "date": "22 October, 2026",
+      "time": "08:00 AM - 10:30 AM",
+      "doctor": {
+        "id": "doctor-003",
+        "name": "Dr. Richard Kandowen",
+        "specialty": "Child Specialist",
+        "imageAsset": "lib/img/home_appoint_doc.jpg"
+      }
+    },
+    "healthServices": [
+      { "id": "tooth", "name": "Tooth", "imageAsset": "lib/img/tooth.png" },
+      { "id": "eye", "name": "Eye", "imageAsset": "lib/img/eye.png" },
+      { "id": "lungs", "name": "Lungs", "imageAsset": "lib/img/lung.png" },
+      { "id": "ear", "name": "Ear", "imageAsset": "lib/img/ear.png" }
+    ],
+    "nearbyDoctors": [
+      {
+        "id": "doctor-001",
+        "name": "Dr. Emmly Lestiryno",
+        "specialty": "General Practitioner",
+        "address": "3167 Durgan Shores",
+        "distanceMeters": 500,
+        "consultationPrice": 90.0,
+        "listImageAsset": "lib/img/near_doc_1.jpg",
+        "profileImageAsset": "lib/img/near_doc_1.jpg",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-002",
+        "name": "Dr. Sonja Litel",
+        "specialty": "Dental Specialist",
+        "address": "950 Sigrid Port",
+        "distanceMeters": 753,
+        "consultationPrice": 120.0,
+        "listImageAsset": "lib/img/near_doc_2.jpg",
+        "profileImageAsset": "lib/img/appoint_page_doc.jpg",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-003",
+        "name": "Dr. Richard Kandowen",
+        "specialty": "Child Specialist",
+        "address": "Medical Center",
+        "distanceMeters": 910,
+        "consultationPrice": 110.0,
+        "listImageAsset": "lib/img/home_appoint_doc.jpg",
+        "profileImageAsset": "lib/img/appoint_page_doc.jpg",
+        "isFavorite": true
+      },
+      {
+        "id": "doctor-004",
+        "name": "Dr. Upul Fernando",
+        "specialty": "Dental Specialist",
+        "address": "Denteeth Clinic",
+        "distanceMeters": 1200,
+        "consultationPrice": 120.0,
+        "listImageAsset": "lib/img/home_appoint_doc.jpg",
+        "profileImageAsset": "lib/img/appoint_page_doc.jpg",
+        "isFavorite": false
+      }
+    ]
+  },
+  "appointmentDetails": {
+    "title": "Appointment",
+    "clinic": "Denteeth",
+    "payment": {
+      "label": "Payment",
+      "amount": 120.0,
+      "currency": "USD"
+    },
+    "details": {
+      "title": "Details",
+      "description": "Choose a convenient day and hour for your consultation. The doctor will review your request and the appointment will appear in your schedule after confirmation."
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "slots": [
+        { "id": "10am", "label": "10:00 AM", "selected": false },
+        { "id": "11am", "label": "11:00 AM", "selected": true },
+        { "id": "12pm", "label": "12:00 PM", "selected": false }
+      ]
+    },
+    "date": {
+      "title": "Date",
+      "slots": [
+        { "id": "sun-4", "label": "Sun 4", "selected": true },
+        { "id": "mon-5", "label": "Mon 5", "selected": false },
+        { "id": "tue-6", "label": "Tue 6", "selected": false }
+      ]
+    },
+    "bookButtonLabel": "Book an Appointment"
+  }
+}
